@@ -1,0 +1,319 @@
+/* Page with test */
+#question{
+    font-size: 20px;
+    color: black;
+}
+.wrap-block{
+    margin: 0;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+}
+button{
+    padding: 10px 150px;
+    align-content: center;
+    background-color: #ffd633;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+button:hover{
+    background-color: #8B004B;
+}
+button:focus{
+    transform: translateY(-3px);
+    outline: none;
+}
+#paragraf{
+    float: right;
+}
+
+/* Page with error message */
+
+h1#error{
+    font-size: 30px;
+    color: #8B004B;
+    text-transform: none;
+    margin-bottom: 30px;
+}
+
+a.error{
+    background-color: #ffd633;
+    color: white;
+    padding: 15px 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+a.error:hover{
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+/* Page with CV */
+
+/* Common styles */
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.row{
+    padding: 0;
+    color: #373333;
+
+}
+
+.col-md-7{
+    background-color: white;
+}
+.col-sm-12{
+    padding: 0;
+}
+
+h3{
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h4{
+    background-color: #373333;
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 10px 10px 15px;
+    font-weight: 400;
+    margin-left: 20%;
+}
+
+.block{
+    margin: 30px 0 0;
+}
+
+/* White block (right side) */
+
+/* Profile block */
+
+.profile{
+    margin-top: 6em;
+}
+
+.block-head{
+    margin: 35px 0;
+}
+
+.person-info{
+    background-color: #ffd633;
+}
+
+.info-block i{
+    float: left;
+    margin-left: 50px;
+    color: #ffd633;
+    position: relative;
+    top: -10px;
+}
+
+.info-block .text{
+    margin: 15px 15px 15px 50px;
+    font-weight: 400;
+    font-size: 18px;
+}
+/* Education and experience block */
+
+.education .text{
+    border-left: 4px solid #ffd633;
+    padding: 0 60px;
+    margin-left: 90px;
+}
+
+.experience .text{
+    border-left: 4px solid #ffd633;
+    padding: 0 60px;
+    margin-left: 90px;
+}
+.uni{
+    margin-top: 50px;
+}
+
+.uni p{
+    margin:0;
+}
+
+.name{
+    color: black;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+.faculty{
+    color:black;
+    font-weight: 600;
+}
+
+.date{
+    margin-bottom: 15px;
+}
+
+.dot{
+    height: 25px;
+    width: 25px;
+    background-color: #ffd633;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    transform: translate(-74px,10px);
+}
+
+/* Skills block */
+
+.charts{
+    margin-left: 50px;
+}
+.charts p{
+    float:left;
+    width:30%;
+}
+
+.charts p span.name{
+    position: relative;
+    top: -50px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.charts p span.per{
+    position: relative;
+    top: -55px;
+    left: 77px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* Yellow block (left side) */
+
+/* Name block */
+
+.name{
+    margin: 50px 0;
+}
+
+img{
+    margin: 30px 35px;
+    width: 270px;
+    height: 270px;
+}
+
+.frame {
+    width: 380px;
+    height: 380px;
+    background: white;
+    border-radius: 100%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.frame-yellow{
+    width: 350px;
+    height: 350px;
+    background: white;
+    border-radius: 100%;
+    border: 7px solid #ffd633;
+    margin: auto;
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0;
+} 
+
+.position{
+    background-color: #373333;
+    color: #ffd633;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    padding: 15px 0;
+} 
+
+ /* Contact block */
+.contact{
+    margin: auto;
+}
+.contact i{
+    color: #ffd633;
+    background-color: #373333;
+    padding: 0.1em 0.5em 0.1em 1.5em;
+    margin-right: 15px;
+}
+
+i.fa-home{
+    padding-left: 1.4em;
+}
+
+.contact p a{
+    color: #373333;
+    font-size: 20px;
+}
+
+.contact p a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+/* Hobby block */
+
+
+.hobby i{
+    color: #ffd633;
+    background-color: #373333;
+    padding: 13px;
+    margin: 10px 30px;
+}
+
+.line p{
+    float: left;
+    width: 45%;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Social networks block */
+
+.social-net{
+    margin-top: 35px;
+}
+.social-net p{
+    width: 45%;
+    float: left;
+    margin: 30px 0;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.social-net a{
+    color:  #373333;
+}
+
+.social-net a:hover{
+    color: white;
+    text-decoration: none;
+}
